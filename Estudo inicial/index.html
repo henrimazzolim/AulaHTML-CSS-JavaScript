@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HtmlCSS</title>
+    <link rel="shortcut icon" href="json.png"type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://i.pinimg.com/474x/fe/57/10/fe571020f2e476bca20e1ae6441569ec.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <h1 id="titulo" >Hello World!!</h1>
+    <h2 class="titulo">Hello World!!</h2>
+    <h3 class="titulo">Hello World!!</h3>
+    <h4 class="titulo">Hello World!!</h4>
+    <h5 class="titulo">Hello World!!</h5>
+    <h6 class="titulo">Hello World!!</h6>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+        Adipisci tenetur sint, laboriosam, esse deleniti, pariatur possimus <br>
+        dolorum vitae delectus veritatis similique maiores reiciendis non molestias earum?<br> 
+        Quidem maiores nobis sunt!
+    </p>
+    <pre>
+        
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Doloremque asperiores illo voluptate at. Soluta, doloremque
+    aperiam! Numquam vero fugiat assumenda cum necessitatibus 
+    maxime quis. Et aspernatur molestias impedit dolores nesciunt.
+    </pre>
+
+    <b>Texto em negrito</b><br>
+    <strong>Texto em negrito porém mais "importante"</strong><br>
+    <i>Texto em itálico</i><br>
+    <em>Texto com Ênfase</em><br>
+    <mark>Texto marcado</mark><br>
+    <small>Texto menor</small><br>
+    <del>Texto riscado</del><br>
+    <ins>Texto sublinhado</ins><br>
+    <sub>Texto subscrito</sub>
+    <h4>Log<sub>2</sub>1</h4>
+    <sup>Texto sonreescrito</sup>
+    <h4>2<sup>4</sup></h4>
+
+    <a href="https://google.com">Abrir o google na mesma aba</a><br>
+    <a href="http://google.com" target="_blank">Abrir o google em outra aba</a><br>
+    <a href="mailto:emaildestino@gmail.com">Entre em contato conosco</a><br>
+    <a href="tel:14991911777">Ligar para suporte</a><br>
+
+    
+    <img src="https://www.svgrepo.com/show/8901/json-file.svg" style="width: 200px;" alt="json-file_136443" >
+
+    
+
+    <p>Lista não ordenada</p>
+    <ul type="circle">
+        <li>Café</li>
+        <li>Chá</li>
+        <li>Água</li>
+    </ul>
+    
+    <p>Lista ordenada</p>
+    <ol type="I">
+        <li>Café</li>
+        <li>Chá</li>
+        <li>Água</li>
+    </ol>
+
+    <p>Lista descritiva</p>
+    <dl>
+        <dt>Café</dt>
+        <dd>Com açúcar e sem açúcar</dd>
+        <dt>Chá</dt>
+        <dd>Com açúcar e sem açúcar</dd>
+        <dt>Água</dt>
+        <dd>Gelada ou sem gelo</dd>
+    </dl>
+    
+    <br><br>
+
+    <table>
+        <tr>
+            <th>Cidade</th>
+            <th>Qtd Alunos</th>
+            <th>Homens</th>
+            <th>Mulheres</th>
+        </tr>    
+        <tr>
+            <td>Barra Bonita</td>
+            <td>12+1</td>
+            <td>8</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>Igaraçu do Tietê</td>
+            <td>7</td>
+            <td>6</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+    <table>
+        <thead>
+
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <br>
+
+    <audio controls>
+        <source src="Mr. Big - Shine (MV).mp3" type="audio/mpeg">
+    </audio>
+
+    <br>
+
+    <video src="partoba1.mp4" controls style="width: 300px; height: 300px;"></video>
+
+    <!-- Containers:
+        <div></div>
+        <header></header>
+        <main></main>
+        <aside></aside>
+        <footer></footer>
+        <nav></nav>
+    -->
+
+    <!-- Midias  
+        <audio controls>
+        <source src="Mr. Big - Shine (MV).mp3" type="audio/mpeg">
+        </audio>
+    -->
+    <!-- Formulários -->
+    <form method="post" action="">
+        <!-- Campo de texto -->
+         <label for="nome">Nome:</label>
+         <input type="text" id="nome" required>
+    <form method="post" action="">
+        <!-- Campo de email --> 
+         <br>
+         <label for="email">Email:</label> 
+         <input type="email" id="nome" required>
+        <!-- Campo de senha --> 
+         <br>
+         <label for="senha">Senha:</label> 
+         <input type="password" id="senha" required>
+        <!-- Campo de números --> 
+         <br>
+         <label for="números">Idade:</label> 
+         <input type="number" id="números" required>
+        <!-- Campo de data --> 
+         <br>
+         <label for="data">Dia do nascimento:</label> 
+         <input type="date" id="data" required>
+        <!-- Campo de data e hora --> 
+         <br>
+         <label for="datahora">Data da consulta:</label> 
+         <input type="datetime-local" id="datahora" required>
+        <br>
+        <!-- Campo de seleção -->
+         <label for="pais">País:</label>
+         <select id="pais">
+            <option value="br">Brasil</option>
+            <option value="eua">EUA</option>
+            <option value="mx">Mexico</option>
+            <option value="ptg">Portugal</option>
+         </select>
+         <br>
+         <!-- Checkbox -->
+          <div>
+            <input type="checkbox" id="newsletter" value="sim">
+            <label for="newsletter">Deseja receber newsletter?</label>
+          </div>
+          <!-- Radio -->
+           <div>
+            <label>Informe seu sexo:</label>
+            <div>
+                <input type="radio" name="genero" id="feminino"> 
+                <label for="feminino">Feminino</label>
+            </div>
+            <div>
+                <input type="radio" name="genero" id="masculino"> 
+                <label for="masculino">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="genero" id="nf" checked> 
+                <label for="nf">Não-informado</label>
+            </div>
+           </div>
+           <br>
+           <!-- Campo de upload -->
+           <label for="arquivo">Arquivo</label>
+           <input type="file" name="arquivo" accept=".jpg, .png">
+           <br>
+           <!-- Campos seletores de cor -->
+            <label for="cor">Cor:</label>
+            <input type="color" id="cor">
+            <br>
+           
+            <!-- Muito texto - areas de texto -->
+             <label for="muitotexto">Comentário:</label>
+            <textarea id="muitotexto" rows="5" cols="80"></textarea>
+            <br>
+
+            <!-- Botões  -->
+            <input type="reset" value="Limpar o formulário">
+            <input type="submit" value="Enviar dados">
+            <br>
+
+  
+           
+
+        </form>
+
+</body>
+
+</html>

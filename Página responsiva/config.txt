@@ -1,0 +1,4 @@
+git config --global user.name henrimazzolim
+git config --global user.email henrimazzolim@gmail.com
+
+Abrir o terminar: Ctrl + Aspas

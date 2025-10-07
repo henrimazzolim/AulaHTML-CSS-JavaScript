@@ -1,0 +1,62 @@
+/* Seletor universal */
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Seletor do elemento */
+body{
+   
+    color: rgb(0, 0, 0);
+    font-family: Arial, sans-serif;
+}
+label{ 
+    font-size: 18px;
+}
+
+/* Seletor por classe */
+.titulo{
+    color: blue;
+    font-size: 18;
+    text-align: center;
+}
+
+/* Seletor por ID */
+#titulo{
+    display: flex;
+    justify-content: end;
+    font-size: 22;
+    color: rgb(255, 0, 0);
+    
+}
+
+/* Seletor por atributo */
+input[type="text"] {
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+/* Seletor descendente */
+div label { 
+    color: burlywood;
+}
+
+/* Seletor de pseudo-classe */
+a{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* PROPRIEDADES PRINCIPAIS CSS */
+/* Cores e fundos */
+.elemento {
+     color: rgb(0, 0, 0);  /*cor do texto*/
+}
